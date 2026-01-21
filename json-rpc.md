@@ -29,7 +29,8 @@ notification
 JSON-RPC Request
 {
   "jsonrpc": "2.0",
-  "result": 8,
+  "method": "add",
+  "params": [1, 2],
   "id": 1
 }
 ```
