@@ -2,7 +2,7 @@
 함수 호출을 문자열 메세지(JSON)형식으로 변환해서, 수신측 프로그램에게 호출하도록 요청하는 통신 규칙으로,
 JSON-RPC는 서버에 메세지를 전송하고 응답을 기다리지않는 notification 방식을 지원하고, 다수의 호출에 대한 응답 순서를 규정하지않는다.
 
-JSON-RPC에서 주고받는 모든 메세지는 JSON형식으로 변환된 하나의 JSON 객체 {} 여야 한다. 
+JSON-RPC에서 주고받는 모든 메세지는 JSON형식으로 변환된 하나의 JSON 객체 { } 여야 한다. 
 다음 코드의 jsonrpc, method, params, id가 각각의 함수 호출이며, JSON-RPC Request에는 반드시 jsonrpc, method, id가 포함되어야 한다.
 ```
 {
