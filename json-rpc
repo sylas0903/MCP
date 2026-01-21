@@ -6,10 +6,12 @@ JSON-RPC에서 주고받는 모든 메세지는 JSON형식으로 변환된 하�
 {
   "jsonrpc": "2.0",
   "method": "add",
-  "params": {...},
+  "params": {
+    "a": 3,
+    "b": 5
+  },
   "id": 1
 }
-```
-                 
+```                
 
 
