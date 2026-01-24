@@ -16,7 +16,7 @@ JSON-RPC Request에는 method가 반드시 포함되어야 하며, params는 메
   "id": 1
 }
 ```
-JSON-RPC Response는 수신된 모든 JSON-RPC Request에 대해 유효한 응답을 반환해야 한다. 이때 응답에는 요청을 식별하기 위한 id가 반드시 포함되어야 하며,
+JSON-RPC Response는 수신된 JSON-RPC Request가 notification이 아니라면 유효한 응답을 반환해야 한다. 이때 응답에는 요청을 식별하기 위한 id가 반드시 포함되어야 하며,
 result 또는 error 중 하나가 포함되어야 한다.
 ```
 성공
