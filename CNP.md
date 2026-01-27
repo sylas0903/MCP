@@ -1,5 +1,5 @@
 ### CNP(contract net protocol)
-Contract Net Protocol(CNP)은 자율 에이전트들이 중앙 스케줄러의 직접적인 통제를 받지 않고, 입찰과 협상 과정을 통해 작업을 할당하는 절차를 표준화한 분산 협상 기반 프로토콜이다. 
+Contract Net Protocol(CNP)은 자율 에이전트들이 중앙 스케줄러의 직접적인 통제를 받지 않고, 입찰과 협상 과정을 통해 작업을 할당하는 절차를 표준화한 분산 협상 기반 프로토콜이다.  
 CNP는 Manager–Contractor 구조로 구성되며, Manager 에이전트가 작업을 공고하면 Contractor 에이전트들은 자신의 상태에 따라 입찰 여부를 결정한다. 
 이후 제안된 입찰을 바탕으로 Manager 에이전트가 협상을 통해 작업을 분배한다.
 
