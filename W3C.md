@@ -25,4 +25,4 @@
 - CNP(Contract Net Protocol)와 같은 분산 협업 메커니즘을 웹 환경에 적용하려는 시도
 
 
-https://w3c-cg.github.io/ai-agent-protocol/
+
